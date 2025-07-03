@@ -1,0 +1,103 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Environments and Secrets
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env*.local
+.env*.backup
+.env.postgres.backup
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.pem
+*.key
+secrets.*
+
+# Frontend
+frontend/.env
+frontend/.env.local
+frontend/.env.development
+frontend/.env.test
+frontend/.env.production
+frontend/.env*.local
+frontend/dist
+frontend/build
+frontend/node_modules
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# Alembic
+alembic/versions/*.py
+!alembic/versions/__init__.py
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json 
